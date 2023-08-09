@@ -1,0 +1,16 @@
+ls(lister) : lister les fichiers et dossiers
+
+ls -a: afficher les fichiers et dossier même les cachés(tout)
+
+cd(change directory): aller dans un dossiers 
+    syntax: cd <chemin>
+
+cd..(revenir en arrière)
+    .. est le dossier parent
+    . est le dossier actuel
+
+pwd : ou suis-je?
+
+tree : regarde l'arboresence
+
+cat <fichier>: check le contenu d'un fichier
