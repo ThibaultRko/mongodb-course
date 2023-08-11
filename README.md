@@ -11,6 +11,8 @@ Si le lien avec github a déjà été fait:
 git add .
 git commit -m "texte pour expliquer les changements"
 git push
+git commit --amend (ajoute les changements au commit précedent)
+git push --force-with-lease
 
 Si pas:
 aller sur github et créer un repository.
