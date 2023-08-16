@@ -29,6 +29,10 @@ async function init() {
     const client = new Client({
         intents: [GatewayIntentBits.Guilds]
     });
+    //on écoute sur l'évènement "interactionCreate". qui capture les commandes faites a votre bot
+    client.on("interactionCreate", (interaction) => {
+        console.log(interation.user.displayName, "a fait", interaction.commandName);
+    })
 
     await client.login(TOKEN);
 
